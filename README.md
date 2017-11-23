@@ -18,7 +18,9 @@ Your contribution is to complete the Router class and specifically: `Iterable<St
 
 Note:
 
-We have not learned algorithms that find efficient routes yet (that comes next year), we have however learned about exhaustive searches like depth first and breadth first search that will tell you if something is possible. You should implement one of the known searches depth first or breadth first search (watch out for cycles) and so you may find a long collection of flights leading to the eventual destination, or perhaps find no path at all. Make sure you terminate any search that has surpassed the specified maxSteps.
+- We have not learned algorithms that find efficient routes yet (that comes next year), we have however learned about exhaustive searches like depth first and breadth first search that will tell you if something is possible. You should implement one of the known searches depth first or breadth first search (watch out for cycles) and so you may find a long collection of flights leading to the eventual destination, or perhaps find no path at all. Make sure you terminate any search that has surpassed the specified maxSteps.
+
+- There is a sample intellij project provided in folder A5. You can open folder A5 in Intellij and complete the existing Router class.
 
 Sample program:
 ```
@@ -31,3 +33,7 @@ Where are you going to? YYT
 The following flights lead from YYG to YYT: YYG to YYZ, YYZ to MCO and MCO to YYT.
 ```
 Translating the above that reads that to get from Charlottetown you could travel from Charlottetown to Toronto, then Toronto to Orlando and finally Orlando to St. John's. Which is an example of the potential solution a depth or breadth first search will provide (not optimal ... ).
+
+
+
+
